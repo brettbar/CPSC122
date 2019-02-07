@@ -1,0 +1,82 @@
+Brett Barinaga
+11/10/2017
+Assignment #5
+
+Problem 1
+
+What order is an algorithm that has a growth-rate function :
+
+1. O(n^3) (3 is the order)
+2. O(log2n) (log2 is the order)
+3. O(n) (1 is the order)
+
+Problem 2
+
+1. 9*n*(n-1)
+O(n^2)
+
+2. while - loop goes j times, 
+for - loop goes n - 1 times 
+
+sum from i = 0, to n - 1 of i is (n(n-1))/2
+
+3.
+Loop A = O(n)
+
+Loop B = O(n^2)
+
+Problem 3
+
+b. A binary search has a big O of O(log2n), while the displaying of the integer has 
+a big O of (n). log2n is always faster than n, so the binary serach is faster.
+
+Problem 5
+
+#include <iostream>
+#include <cstdlib>
+
+const int SIZE = 100;
+
+void bucketSort (int array[], int n)
+{
+	int i, j, k, buckets[SIZE];
+	
+	for(i = 0; i < SIZE; ++i)
+	{
+		buckets[i] = 0;
+	}
+
+	for (i = 0; i < n; ++i)
+	{
+		++buckets[a[i]];
+	}
+	
+	for (i = 0, j = 0; j < SIZE; i++)
+	{
+		for(k = buckets[j]; k > 0; --k)
+		{
+			a[i++] = j;
+		}
+	}
+}
+
+
+int main()
+{
+	int arr[];
+	
+	
+	cout << "Original array"
+	for (int i = 0; i <= 100; i++)
+	{
+		arr[i] = rand() % 10;
+		cout << arr[i] << " ";
+	}
+
+	bucketSort(arr, SIZE);
+
+	cout << "\nNew Array\n";
+	for(int i = 0; i < 100; ++i)
+		cout << a[i] << " ";
+	return 0;
+}

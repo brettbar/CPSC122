@@ -1,0 +1,12 @@
+﻿Build started 11/6/2017 12:53:25 PM.
+     1>Project "C:\Users\Brett\OneDrive\Documents\Classes\Sophomore\CPSC 122-02\ReidVersion\ReidVersion\ReidVersion.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\Reid part\main.cpp"
+         main.cpp
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\reid part\main.cpp(116): error C4703: potentially uninitialized local pointer variable 'PreviousCard' used
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\reid part\main.cpp(149): error C4703: potentially uninitialized local pointer variable 'PreviousCardTwo' used
+     1>Done Building Project "C:\Users\Brett\OneDrive\Documents\Classes\Sophomore\CPSC 122-02\ReidVersion\ReidVersion\ReidVersion.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.81

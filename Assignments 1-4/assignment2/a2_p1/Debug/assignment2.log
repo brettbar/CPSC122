@@ -1,0 +1,31 @@
+﻿Build started 9/14/2017 11:31:42 PM.
+     1>Project "C:\Users\Brett\OneDrive\Documents\Classes\Sophomore\CPSC 122-02\assignment2\assignment2\assignment2.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (assignment2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Problem 1.1.cpp" "Problem 1.2.cpp"
+         Problem 1.2.cpp
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.2.cpp(4): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.2.cpp(12): error C2065: 'weight' : undeclared identifier
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.2.cpp(16): error C2079: 'bar' uses undefined class 'DumbBell'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.2.cpp(17): error C2440: '<function-style-cast>' : cannot convert from 'int' to 'DumbBell'
+                 Source or target has incomplete type
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.2.cpp(18): error C2228: left of '.weight' must have class/struct/union
+                 type is 'int'
+         Problem 1.1.cpp
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(8): error C2059: syntax error : '{'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(10): error C2144: syntax error : 'double' should be preceded by ':'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(14): error C2146: syntax error : missing ':' before identifier 'setCenter'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(14): warning C4183: 'setCenter': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(15): warning C4183: 'setRadius': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(20): error C2236: unexpected token 'class'. Did you forget a ';'?
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(20): error C2011: 'Circle' : 'class' type redefinition
+                 c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(7) : see declaration of 'Circle'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment2\assignment2\problem 1.1.cpp(29): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\Brett\OneDrive\Documents\Classes\Sophomore\CPSC 122-02\assignment2\assignment2\assignment2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.37

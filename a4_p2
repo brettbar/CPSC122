@@ -1,0 +1,21 @@
+// Brett Barinaga
+// Problem 2
+
+
+// Problem 2.1
+
+Rectangle *rectPntr;
+
+// Problem 2.2
+
+B)
+
+// Problem 2.3
+A)
+Rectangle *r = nullptr;
+r = new Rectangle;
+B)
+r->length = 10;
+r->width = 14;
+
+

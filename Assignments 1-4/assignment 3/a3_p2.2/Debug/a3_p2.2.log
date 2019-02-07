@@ -1,0 +1,36 @@
+﻿Build started 9/26/2017 10:17:09 PM.
+     1>Project "C:\Users\Brett\OneDrive\Documents\Classes\Sophomore\CPSC 122-02\assignment 3\a3_p2.2\a3_p2.2.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt a3_p2.2.cpp
+         a3_p2.2.cpp
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(2): error C2146: syntax error : missing ';' before identifier 'does'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(2): error C2146: syntax error : missing ';' before identifier 'each'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(2): error C2146: syntax error : missing ';' before identifier 'of'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(2): error C2146: syntax error : missing ';' before identifier 'the'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(2): error C2146: syntax error : missing ';' before identifier 'following'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(2): error C2146: syntax error : missing ';' before identifier 'display'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(2): error C2143: syntax error : missing ';' before '?'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(3): error C2059: syntax error : ')'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(4): error C2059: syntax error : ')'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(4): error C2146: syntax error : missing ';' before identifier 'cout'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(4): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(5): error C2059: syntax error : ')'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(5): error C2146: syntax error : missing ';' before identifier 'cout'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(5): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(5): error C2086: 'int cout' : redefinition
+                 c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(4) : see declaration of 'cout'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(6): error C2059: syntax error : ')'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(6): error C2146: syntax error : missing ';' before identifier 'x'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(7): error C2143: syntax error : missing ';' before '<<'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(7): error C2086: 'int cout' : redefinition
+                 c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.2\a3_p2.2.cpp(4) : see declaration of 'cout'
+     1>Done Building Project "C:\Users\Brett\OneDrive\Documents\Classes\Sophomore\CPSC 122-02\assignment 3\a3_p2.2\a3_p2.2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.31

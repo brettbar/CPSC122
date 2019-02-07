@@ -1,0 +1,19 @@
+﻿Build started 9/26/2017 10:17:09 PM.
+     1>Project "C:\Users\Brett\OneDrive\Documents\Classes\Sophomore\CPSC 122-02\assignment 3\a3_p2.1\a3_p2.1.vcxproj" on node 6 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt a3_p2.1.cpp
+         a3_p2.1.cpp
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.1\a3_p2.1.cpp(2): error C2078: too many initializers
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.1\a3_p2.1.cpp(4): error C2059: syntax error : ','
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.1\a3_p2.1.cpp(4): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.1\a3_p2.1.cpp(4): error C2059: syntax error : '}'
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.1\a3_p2.1.cpp(5): error C2065: '’A’' : undeclared identifier
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.1\a3_p2.1.cpp(5): error C2065: '’X’' : undeclared identifier
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.1\a3_p2.1.cpp(5): error C2065: '’1’' : undeclared identifier
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.1\a3_p2.1.cpp(5): error C2065: '’2’' : undeclared identifier
+     1>c:\users\brett\onedrive\documents\classes\sophomore\cpsc 122-02\assignment 3\a3_p2.1\a3_p2.1.cpp(5): error C2065: '’s’' : undeclared identifier
+     1>Done Building Project "C:\Users\Brett\OneDrive\Documents\Classes\Sophomore\CPSC 122-02\assignment 3\a3_p2.1\a3_p2.1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.30
